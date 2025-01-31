@@ -1,6 +1,6 @@
-import './assets/main.css'
+// main.js 或 main.ts
+import { createApp } from 'vue';
+import App from './App.vue';
+import naive from 'naive-ui';
 
-import { createApp } from 'vue'
-import App from './App.vue'
-
-createApp(App).mount('#app')
+createApp(App).use(naive).mount('#app');
